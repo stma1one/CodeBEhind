@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CodeBEhind.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <VerticalStackLayout Margin="15" BackgroundColor="PapayaWhip">
+        <Label
+            x:Name="title_lbl"
+            FontFamily="RubikD"
+            FontSize="50"
+            HorizontalOptions="Center"
+            Text="נגמר השיעור"
+            TextColor="#e6aee8"
+            VerticalOptions="Start" />
+        <Image
+            Aspect="AspectFit"
+            Source="https://content-management-files.canva.com/339ed299-4987-451c-8ea4-501b15f50c5c/magic-photo_01_benefit_content-creators_2x.png"
+            WidthRequest="100" />
+        <Image
+            Aspect="AspectFit"
+            HeightRequest="100"
+            Source="dotnet_bot.png" />
+        <Button
+            x:Name="sababa_btn"
+            Margin="15"
+            BorderColor="Red"
+            BorderWidth="3"
+            Clicked="Button_Clicked"
+            CornerRadius="40"
+            HeightRequest="80"
+            HorizontalOptions="Center"
+            Text="לחץ עלי"
+            WidthRequest="80" />
+        <Button
+            x:Name="achla_btn"
+            Margin="15"
+            BorderColor="Red"
+            BorderWidth="3"
+            Clicked="Button_Clicked"
+            HeightRequest="80"
+            HorizontalOptions="Center"
+            Text="לחץ עלי"
+            WidthRequest="80" />
+    </VerticalStackLayout>
+
+</ContentPage>
